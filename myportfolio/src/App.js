@@ -1,17 +1,23 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 //component imports 
-import NavBar from './components/NavBar'
+import Navigation from './components/Navigation'
 import Home from './components/Home'
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
-        
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="*" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
+
   );
 }
 
