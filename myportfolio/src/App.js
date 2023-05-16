@@ -8,6 +8,7 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
+import WorkInProgress from './components/WorkInProgress';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/about" element={<About/>}/>
+          <Route path="/workinprogress" element={<WorkInProgress/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="*" element={<Home />} />
         </Routes>
