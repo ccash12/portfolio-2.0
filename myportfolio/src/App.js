@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 //component imports 
 import Navigation from './components/Navigation'
 import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/projects" element={<Projects/>}/>
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
