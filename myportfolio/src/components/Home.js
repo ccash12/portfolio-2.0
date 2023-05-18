@@ -1,3 +1,5 @@
+import C from './images/C.png'
+
 function Home() {
     return(
         <div className="HomeContainer">
@@ -6,7 +8,9 @@ function Home() {
                 <h4> I am full stack developer and software engineer based in Seattle, Washington</h4>
                 <h6>Javascript, React.js, Node,js Ruby, Ruby on Rails, Java, PL/SQL, MySQL, SQL, Oracle  </h6>
             </div>
-            
+            <div className="cicleCourtney">
+                <img src={C} alt= "C"/>
+            </div>
         </div>
     )
 }

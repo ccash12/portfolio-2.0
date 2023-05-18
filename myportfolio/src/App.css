@@ -45,7 +45,12 @@ html, body {
 .HomeText{
   text-align: left;
   position: fixed;
-  bottom: 200px;
+  bottom: 175px;
+}
+
+img{
+  position: fixed;
+  margin: right;
 }
 
 .NavBarContainer {
