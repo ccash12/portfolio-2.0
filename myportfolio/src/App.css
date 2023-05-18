@@ -42,13 +42,18 @@ html, body {
   
 }
 
+.HomeText{
+  text-align: left;
+  position: fixed;
+  bottom: 200px;
+}
 
 .NavBarContainer {
   position: relative;
   display:flex;
   flex-direction: row;
   align-items: center;
-  background-color: white;
+  
 }
 
 .navBarLinks {
