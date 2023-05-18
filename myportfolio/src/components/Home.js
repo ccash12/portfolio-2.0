@@ -1,9 +1,10 @@
-import courtney from './images/courtney.jpg'
+// import tiles from './images/tiles.jpeg'
 
 function Home() {
     return(
         <div className="HomeContainer">
-            <img src={courtney} alt="courtney"/>
+            {/* <img src={tiles} alt="titles"/> */}
+            
         </div>
     )
 }

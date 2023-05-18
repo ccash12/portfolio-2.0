@@ -37,6 +37,12 @@
   }
 }
 
+html, body {
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/beige-tiles.png');
+  
+}
+
+
 .NavBarContainer {
   position: relative;
   display:flex;
