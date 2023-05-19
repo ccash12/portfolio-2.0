@@ -43,14 +43,16 @@ html, body {
 }
 
 .HomeText{
-  text-align: left;
-  position: fixed;
-  bottom: 175px;
+  text-align: center;
+  position: relative;
+  right: 225px;
+  top: 350px;
 }
 
 img{
-  position: fixed;
-  margin: right;
+  position: absolute;
+  right: 0%;
+  bottom: 10%;
 }
 
 .NavBarContainer {
