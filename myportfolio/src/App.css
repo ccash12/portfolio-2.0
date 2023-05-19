@@ -75,14 +75,15 @@ img{
   width: 65%;
   font-size: 15px;
   justify-content: flex-end;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .NavBarTitle {
   display: flex;
   width:35%;
   height: 100%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a{
@@ -115,4 +116,18 @@ a:hover{
 
 .grid > div {
   flex-basis: calc(20% - 40px);
+}
+
+.AboutMeTitle{
+  text-align: left;
+  font-size:50pt;
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.AboutMeParagraph{
+  text-align: left;
+  font-size:20pt;
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
