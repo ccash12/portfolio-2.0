@@ -10,6 +10,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import WorkInProgress from './components/WorkInProgress';
 
+
 function App() {
   return (
     <div className="App">
