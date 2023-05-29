@@ -8,7 +8,7 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
-import WorkInProgress from './components/WorkInProgress';
+import ContactMe from './components/ContactMe'
 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/about" element={<About/>}/>
-          <Route path="/workinprogress" element={<WorkInProgress/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/contactme" element={<ContactMe/>}/>
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>

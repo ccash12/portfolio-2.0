@@ -16,11 +16,11 @@ function Navigation() {
                     <Link to="/about" >
                         <h3>About</h3>
                     </Link>
-                    <Link to="/workinprogress">
-                        <h3>Work in Progress</h3>
-                    </Link>
                     <Link to="/projects">
                         <h3>Projects</h3>
+                    </Link>
+                    <Link to="contactme">
+                        <h3>Contact Me</h3>
                     </Link>
                 </div>
             </Navbar>
