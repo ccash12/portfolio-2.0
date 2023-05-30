@@ -53,16 +53,17 @@ function ContactMe() {
                 /> */}
                 </div>
             </form>
-
-            <Link to="https://www.linkedin.com/in/courtney-cash-616a8617b/" >
-                LinkedIn 
-            </Link>
-            <Link>
-                Resume
-            </Link>
-            <Link to="https://www.facebook.com/courtney.cash1/"> 
-                Facebook
-            </Link>
+                <div className="ContactMeLinks">
+                <Link to="https://www.linkedin.com/in/courtney-cash-616a8617b/" >
+                    LinkedIn 
+                </Link>
+                <Link>
+                    Resume
+                </Link>
+                <Link to="https://www.facebook.com/courtney.cash1/"> 
+                    Facebook
+                </Link>
+            </div>
         </div>
     )
 }
