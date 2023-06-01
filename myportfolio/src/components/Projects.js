@@ -1,12 +1,13 @@
 import {Card,Button} from "react-bootstrap"
+import foodshipify from './images/foodshipify.png'
 
 function Projects() {
 
     const cardInfo = [
-        {image:"", title:"The Ultimate Wedding Organizer", text:"For all things Weddings!!!"},
-        {image:"", title:"FoodShipify", text:"This application allows you to browse groceries that you need and have them delivered straight to your door!"},
-        {image:"", title:"A Couple of Cooks", text:"This is an interactive website that allows you to browse recipes that other users have added and add ones yourself!"},
-        {image:"", title:"Ambient Art Gallery", text:"Art"},
+        {image:"", title:"The Ultimate Wedding Organizer", text:"For all things Weddings!!!", button: "The Ultimate Wedding Organizer"},
+        {image:"", title:"FoodShipify", text:"This application allows you to browse groceries that you need and have them delivered straight to your door!",button: "Foodshipify"},
+        {image:"", title:"A Couple of Cooks", text:"This is an interactive website that allows you to browse recipes that other users have added and add ones yourself!",button: "A Couple of Cooks"},
+        {image:"", title:"Ambient Art Gallery", text:"Art", button: "Ambient Art Gallery"},
     ]
 
     const renderCard = (card,index) => {
@@ -18,7 +19,7 @@ function Projects() {
                 <Card.Text>
                     {card.text}
                 </Card.Text>
-        {/* <Button variant="primary">Go somewhere</Button> */}
+         <Button variant="primary">{card.button}</Button> 
       </Card.Body>
     </Card>
         )
