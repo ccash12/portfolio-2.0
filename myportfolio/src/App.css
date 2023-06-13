@@ -52,47 +52,49 @@
 
 body {
   background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/beige-tiles.png'); 
+  height: 100vh;
   
 }
-
+/* 
 .HomeText{
   text-align: center;
   position: relative;
   right: 225px;
   top: 350px;
   font-family: Georgia, 'Times New Roman', Times, serif
-}
+} */
 
-img{
-  position: absolute;
-  right: 0%;
-  bottom: 10%;
+.HomeContainer{
+  display:flex;
+  /* flex-wrap: wrap-reverse; */
+  align-items:flex-end;  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
 }
 
 .NavBarContainer {
-  position: relative;
   display:flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
+
+
 }
 
 .navBarLinks {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;
   align-items: right;
   position: absolute;
   left:775%;
   height: 100%;
-  width: 65%;
+  width: 65%; */
   font-size: 15px;
   justify-content: flex-end;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .NavBarTitle {
-  display: flex;
-  width:35%;
-  height: 100%;
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -125,9 +127,9 @@ a:hover{
     flex-direction: row;
 }
 
-.grid > div {
+/* .grid > div {
   flex-basis: calc(20% - 40px);
-}
+} */
 
 .AboutMeTitle{
   text-align: left;
@@ -194,4 +196,10 @@ button {
 .ContactMeLinks {
   font-family: Georgia, 'Times New Roman', Times, serif;
   
+}
+
+.circleCourtney img{
+  width: 15em;
+  height: auto;
+
 }

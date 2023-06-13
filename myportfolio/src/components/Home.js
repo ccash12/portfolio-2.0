@@ -8,7 +8,7 @@ function Home() {
                 <h4> I am full stack developer and software engineer based in Seattle, Washington</h4>
                 <h6>Javascript, React.js, Node,js Ruby, Ruby on Rails, Java, PL/SQL, MySQL, SQL, Oracle  </h6>
             </div>
-            <div className="cicleCourtney">
+            <div className="circleCourtney">
                 <img src={C} alt= "C"/>
             </div>
         </div>

@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 function Navigation() {
     return(
         <div className="NavBarContainer">
-            <Navbar>
+            {/* <Navbar> */}
                 <div className="courtney">
                     <Link to="/" className="NavBarTitle">
                         Courtney Cash
@@ -23,7 +23,7 @@ function Navigation() {
                         <h3>Contact Me</h3>
                     </Link>
                 </div>
-            </Navbar>
+            {/* </Navbar> */}
         </div>
     )
 }
