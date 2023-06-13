@@ -54,15 +54,17 @@ function ContactMe() {
                 </div>
             </form>
                 <div className="ContactMeLinks">
-                <Link to="https://www.linkedin.com/in/courtney-cash-616a8617b/" >
+                    <a target="_blank" rel="noreferrer">
+                    <Link to="https://www.linkedin.com/in/courtney-cash-616a8617b/" >
                     LinkedIn 
-                </Link>
-                <Link to="https://docs.google.com/document/d/1eaYeqUyWDKPZkat4LdPtZwiPySUPGOLl4ANFMPNSIaU/edit">
+                    </Link>
+                    <Link to="https://docs.google.com/document/d/1eaYeqUyWDKPZkat4LdPtZwiPySUPGOLl4ANFMPNSIaU/edit">
                     Resume
-                </Link>
-                <Link to="https://www.facebook.com/courtney.cash1/"> 
+                    </Link>
+                    <Link to="https://www.facebook.com/courtney.cash1/"> 
                     Facebook
-                </Link>
+                    </Link>
+                    </a>
             </div>
         </div>
     )

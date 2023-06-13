@@ -55,18 +55,14 @@ body {
   height: 100vh;
   
 }
-/* 
+
 .HomeText{
-  text-align: center;
-  position: relative;
-  right: 225px;
-  top: 350px;
-  font-family: Georgia, 'Times New Roman', Times, serif
-} */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+} 
 
 .HomeContainer{
   display:flex;
-  /* flex-wrap: wrap-reverse; */
   align-items:flex-end;  
   justify-content: center;
   align-items: center;
@@ -83,19 +79,13 @@ body {
 
 .navBarLinks {
   display: flex;
-  /* flex-direction: row;
-  align-items: right;
-  position: absolute;
-  left:775%;
-  height: 100%;
-  width: 65%; */
   font-size: 15px;
   justify-content: flex-end;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .NavBarTitle {
-  font-size: 20px;
+  font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -127,9 +117,6 @@ a:hover{
     flex-direction: row;
 }
 
-/* .grid > div {
-  flex-basis: calc(20% - 40px);
-} */
 
 .AboutMeTitle{
   text-align: left;
@@ -144,6 +131,8 @@ a:hover{
   margin-left: 50px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .formbox {
   width:1500;
@@ -194,6 +183,9 @@ button {
 }
 
 .ContactMeLinks {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
@@ -201,5 +193,8 @@ button {
 .circleCourtney img{
   width: 25em;
   height: auto;
+}
 
+@media  only screen and (max-width:700px){
+  .HomeContainer {flex-wrap: wrap-reverse;}
 }
