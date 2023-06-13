@@ -8,7 +8,7 @@ function Projects() {
         {image:"", title:"The Ultimate Wedding Organizer", text:"For all things Weddings!!!", button: "The Ultimate Wedding Organizer"},
         {image:"", title:"FoodShipify", text:"This application allows you to browse groceries that you need and have them delivered straight to your door!",button: "Foodshipify"},
         {image:{acoupleofcooks}, title:"A Couple of Cooks", text:"This is an interactive website that allows you to browse recipes that other users have added and add ones yourself!",button: "A Couple of Cooks"},
-        {image:"", title:"Ambient Art Gallery", text:"Art", button: "Ambient Art Gallery", click:"https://ambient-art.web.app/"},
+        {image:"", title:"Ambient Art Gallery", text:"Art", button: "Ambient Art Gallery", click:"https://ambient-art.web.app/", click:"https://ambient-art.web.app/"},
     ]
 
 
