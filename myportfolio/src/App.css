@@ -58,8 +58,16 @@ body {
 
 .HomeText{
   font-family: Georgia, 'Times New Roman', Times, serif;
-
+  margin-top: 200px;
 } 
+
+.HomeText h1 {
+  margin-bottom:30px;
+}
+
+.HomeText h4 {
+  margin-bottom:30px;
+}
 
 .HomeContainer{
   display:flex;
