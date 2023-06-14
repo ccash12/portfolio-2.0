@@ -17,7 +17,7 @@ function Projects() {
     
     const renderCard = (card,index) => {
         return(
-        <Card style={{ width: '19rem'  }} key={index} className="box">
+        <Card style={{ width: '19rem'  }} key={index} className="">
             <Card.Img variant="top" src={card.image} />
         <Card.Body>
             <Card.Title >{card.title}</Card.Title>
