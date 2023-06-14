@@ -54,7 +54,7 @@ function ContactMe() {
                 </div>
             </form>
                 <div className="ContactMeLinks">
-                    <a target="_blank" rel="noreferrer">
+                    
                     <Link to="https://www.linkedin.com/in/courtney-cash-616a8617b/" >
                     LinkedIn 
                     </Link>
@@ -64,7 +64,7 @@ function ContactMe() {
                     <Link to="https://www.facebook.com/courtney.cash1/"> 
                     Facebook
                     </Link>
-                    </a>
+                    
             </div>
         </div>
     )

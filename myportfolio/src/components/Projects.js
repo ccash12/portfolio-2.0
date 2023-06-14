@@ -2,7 +2,7 @@ import {Card,Button} from "react-bootstrap"
 import acoupleofcooks from "./images/acoupleofcooks.png"
 import ambientartgallery from "./images/ambientartgallery.png"
 import foodshipify from "./images/foodshipify.png"
-import construction from "./images/construction.jpg"
+import construction from "./images/construction.png"
 
 
 function Projects() {
@@ -17,7 +17,7 @@ function Projects() {
     
     const renderCard = (card,index) => {
         return(
-        <Card style={{ width: '19rem'  }} key={index} className="">
+        <Card style={{ width: '19rem'  }} key={index}>
             <Card.Img variant="top" src={card.image} />
         <Card.Body>
             <Card.Title >{card.title}</Card.Title>
