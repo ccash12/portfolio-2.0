@@ -8,10 +8,10 @@ import construction from "./images/construction.png"
 function Projects() {
 
     const cardInfo = [
-        {image:`${construction}`, title:"The Ultimate Wedding Organizer", text:"For all things Weddings!!!", button: "The Ultimate Wedding Organizer", click:""},
-        {image:`${foodshipify}`, title:"FoodShipify", text:"This application allows you to browse groceries that you need and have them delivered straight to your door!",button: "Foodshipify", click:"http://foodshipify-frontend.s3-website.us-east-2.amazonaws.com"},
-        {image:`${acoupleofcooks}`, title:"A Couple of Cooks", text:"This is an interactive website that allows you to browse recipes that other users have added and add ones yourself!",button: "A Couple of Cooks",click:"http://acoupleofcooks-frontend.s3-website.us-east-2.amazonaws.com"},
-        {image:`${ambientartgallery}`, title:"Ambient Art Gallery", text:"Art", button: "Ambient Art Gallery", click:"https://ambient-art.web.app/"},
+        {image:`${construction}`, title:"The Ultimate Wedding Organizer", text:"Planning a wedding can be stressful, but it does not have to be. With the Ultimate Wedding Organizer you will have everthing in one place.  ", button: "The Ultimate Wedding Organizer", click:""},
+        {image:`${foodshipify}`, title:"FoodShipify", text:"Foodshipify is an application that allows you to have food delivered straight to your door. At Foodshipify we have a variety of all foods and want to make the stress of grocery shopping easy on you. Let us do the work for you, so all you have to think about is putting ingredient together for a delicious meal.",button: "Foodshipify", click:"http://foodshipify-frontend.s3-website.us-east-2.amazonaws.com"},
+        {image:`${acoupleofcooks}`, title:"A Couple of Cooks", text:"Are you tired of trying to figure out every night what you want to eat for dinner? A Couple of Cooks is a place where you can browse new recipes, save them to view later, and add new recipes. People from around the world can add and share recipes that you can cook in your own kitchen",button: "A Couple of Cooks",click:"http://acoupleofcooks-frontend.s3-website.us-east-2.amazonaws.com"},
+        {image:`${ambientartgallery}`, title:"Ambient Art Gallery", text:"Amibient Art Gallery is an appointment only Art Gallery in Las Vegas, Nevada. By ehibiting art work ranging from paintings, drawings, photography, sculpture, and video, Ambient Art Gallery strives to explore and promote all forms of visual expression.", button: "Ambient Art Gallery", click:"https://ambient-art.web.app/"},
     ]
 
     
