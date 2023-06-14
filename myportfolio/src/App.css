@@ -138,6 +138,7 @@ a:hover{
   width:700px;
   height:1700px;
   padding:20px;
+  display: inline-block;
 }
 
 .FormBoxTitle{
@@ -183,10 +184,8 @@ button {
 
 .ContactMeLinks {
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  display:inline-block;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
 }
 
 .circleCourtney img{
