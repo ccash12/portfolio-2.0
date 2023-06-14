@@ -59,6 +59,7 @@ body {
 .HomeText{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 200px;
+  text-align: left;
 } 
 
 .HomeText h1 {
