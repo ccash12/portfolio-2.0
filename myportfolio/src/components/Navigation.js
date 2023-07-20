@@ -21,24 +21,6 @@ function Navigation() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-            {/* <Navbar> */}
-                {/* <div className="courtney">
-                    <Link to="/" className="NavBarTitle">
-                        Courtney Cash
-                    </Link>
-                </div>
-                <div className="navBarLinks">
-                    <Link to="/about" >
-                        <h3>About</h3>
-                    </Link>
-                    <Link to="/projects">
-                        <h3>Projects</h3>
-                    </Link>
-                    <Link to="contactme">
-                        <h3>Contact Me</h3>
-                    </Link>
-                </div> */}
-            {/* </Navbar> */}
 
             
         </div>
