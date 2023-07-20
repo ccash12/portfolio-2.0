@@ -48,9 +48,7 @@ function ContactMe() {
                 <button type='submit'>
                     Send Message
                 </button>
-                    {/* type='submit'
-                    value="Send Message"
-                /> */}
+                    
                 </div>
             </form>
                 <div className="ContactMeLinks">
