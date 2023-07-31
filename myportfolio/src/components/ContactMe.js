@@ -56,7 +56,7 @@ function ContactMe() {
                     <Link to="https://www.linkedin.com/in/courtney-cash-616a8617b/" >
                     LinkedIn 
                     </Link>
-                    <Link to="https://docs.google.com/document/d/1eaYeqUyWDKPZkat4LdPtZwiPySUPGOLl4ANFMPNSIaU/edit">
+                    <Link to="https://docs.google.com/document/d/1BydFGckvSLP4Voop71_L3cXkY9JndVVk6puScw3vGg0/edit">
                     Resume
                     </Link>
                     <Link to="https://www.facebook.com/courtney.cash1/"> 
